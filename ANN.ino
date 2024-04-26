@@ -2,7 +2,7 @@
 
 //Network COnfigurations
 
-const int PatternCount = 11;
+const int PatternCount = 10;
 const int InputNodes = 7;
 const int HiddenNodes = 8;
 const int OutputNodes = 4;
@@ -22,7 +22,6 @@ const byte Input[PatternCount][InputNodes] = {
   { 1, 1, 1, 0, 0, 0, 0 },  // 7 
   { 1, 1, 1, 1, 1, 1, 1 },  // 8
   { 1, 1, 1, 0, 0, 1, 1 }, // 9
-  { 1, 1, 1, 1, 1, 1, 1 }   // 10
 }; 
 
 const byte Target[PatternCount][OutputNodes] = {
